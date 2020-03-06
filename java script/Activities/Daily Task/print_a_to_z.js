@@ -1,4 +1,3 @@
-// Write a program to print all alphabets from a to z. - using while loop
 
 const readline=require('readline');
 const inp=readline.createInterface({
