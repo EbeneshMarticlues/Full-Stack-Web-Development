@@ -1,5 +1,3 @@
-// Write a program to find sum of all natural numbers between 1 to n.
-
 const readline=require('readline');
 const inp=readline.createInterface({
   input:process.stdin});
