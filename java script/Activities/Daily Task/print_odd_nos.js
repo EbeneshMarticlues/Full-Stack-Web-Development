@@ -1,5 +1,3 @@
-// Write a program to print all odd number between 1 to 100.
-
 const readline=require('readline');
 const inp=readline.createInterface({
   input:process.stdin});
