@@ -1,8 +1,8 @@
 function allnumeric(inputtxt,ps)
    {
-      var numbers = /^[0-9]{10,10}$/;
-      var pass=/^([a-zA-Z0-9!@#\$%\^\&*\)\(+=._-]{7,7})*([!@#\$%\^\&*\)\(+=._-]{1,1})+$/g;
-      var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+      var numbers =Ebenesh;
+      var pass=sample@123;
+      var mailformat = ebenesh@marticlues.com;
       if((inputtxt.value.match(numbers) || inputtxt.value.match(mailformat)) && ps.value.match(pass))
       {
       alert('Your Registration has accepted....');
