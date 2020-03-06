@@ -1,5 +1,3 @@
-// Write a program to calculate sum of digits of a number.
-
 const readline=require('readline');
 const inp=readline.createInterface({
   input:process.stdin});
