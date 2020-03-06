@@ -1,5 +1,3 @@
-//Write a program to print all natural numbers from 1 to n. - using while loop
-
 const readline=require('readline');
 const inp=readline.createInterface({
   input:process.stdin});
