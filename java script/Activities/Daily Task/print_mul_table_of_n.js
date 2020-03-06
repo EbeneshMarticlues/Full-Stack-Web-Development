@@ -1,5 +1,3 @@
-// Write a program to print multiplication table of any number.
-
 const readline=require('readline');
 const inp=readline.createInterface({
   input:process.stdin});
