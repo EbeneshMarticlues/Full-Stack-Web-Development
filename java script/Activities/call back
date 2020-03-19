@@ -1,0 +1,14 @@
+for(a=10;a>=0;a--){
+  (function(a){
+  setInterval(function(){
+
+  
+  if(a==0){
+    console.log("Hello ebi");
+  }
+  else{
+    console.log(a);
+  }
+  },2000*(a+1));
+  })(a)
+}
