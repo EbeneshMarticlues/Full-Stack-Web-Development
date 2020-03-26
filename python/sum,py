@@ -1,0 +1,33 @@
+def ebi(a,b):
+    for i in range(a):
+        for j in range(b):
+            if(i<a//2):
+                if(j<b//2):
+                    if(j==0):
+                        print("*",end=" ")
+                    else:
+                       print(" ",end=" ")
+                if(j==b//2):
+                    print("*",end=" ")
+                else:
+                    if(i==0):
+                        print("*",end=" ")
+            elif(i==a//2):
+                print("*",end=" ")
+            else:
+              if(j==b//2 or j==b-1):
+                print("*",end=" ")
+              elif(i==a-1):
+
+                if(j<=b//2 or j==b-1 ):
+                    print("*",end=" ")
+                else:
+                    print(" ",end=" ")
+              else:
+                print(" ",end=" ")
+
+        print()
+
+a=30;b=30
+
+ebi(a,b)
