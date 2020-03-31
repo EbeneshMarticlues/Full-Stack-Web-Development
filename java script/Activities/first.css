@@ -1,0 +1,13 @@
+body {
+    background-color: #aacfcf;
+    background-image: url(back.jpg);
+    background-position: center;
+}
+
+.co {
+    position: relative;
+    left: 800px;
+    text-align: center;
+    height: 50px;
+    width: 550px;
+}
